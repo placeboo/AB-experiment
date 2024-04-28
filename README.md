@@ -12,7 +12,8 @@ Peeking offers a practical benefit in modern A/B testing environments that provi
 - Lack of Prior Understanding: Many experimenters do not have a well-defined sense of their tolerance for the duration of experiments or the effect sizes they aim to detect. This lack of clarity can make it difficult to optimize the sample size from the outset.
 - Statistical Risks: Theoretically, if an experimenter continuously monitors the p-values during an A/B test, the chance of incorrectly rejecting the null hypothesis (Type I error) increases as the monitoring period extends. Under the null hypothesis—that is, when there is no real effect—any fixed significance level ($\alpha$) can be inadvertently crossed simply by the act of waiting and watching the p-values over time.
 The figure below illustrates how continuous monitoring of test statistics, or peeking, can artificially inflate the probability of refuting the null hypothesis despite there being no true underlying effect. This phenomenon highlights the need for careful consideration when designing and interpreting A/B tests, especially in environments where data is readily available.
-![img.png](figs/readme/ab-peak.png)
+
+![img.png](figs/readme/peak.png)
 
 ## References
 - Johari, R., Koomen, P., Pekelis, L., & Walsh, D. (2017). Peeking at A/B Tests: Why it matters, and what to do about it. Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, Part F129685, 1517–1525. https://doi.org/10.1145/3097983.3097992
