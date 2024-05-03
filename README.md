@@ -1,7 +1,7 @@
 # Table of Content
 - [Introduction](#introduction)
 - [Topic 1: Sequential Testing and Peak in AB Testing](#topic-1-sequential-testing-and-peak-in-ab-testing)
-
+- [Topic 2: Bandit vs. A/B Testing](#topic-2-bandit-vs-ab-testing)
 # Introduction
 Welcome to my repository, a personal notebook where I document my learning journey through A/B testing in the industry. This repository is shaped by the challenges and experiences I've encountered during my professional work. It is important to note that the materials and references here are curated based on what I have found to be most useful and relevant to my own learning, and may not comprehensively cover all the basic or advanced topics others might deem important. My goal is to provide a personal account and resource that supports my ongoing learning and development in the field of A/B testing. This repository is intended for those interested in seeing how A/B testing can be applied from a practical, experiential perspective.
 
@@ -17,3 +17,7 @@ The figure below illustrates how continuous monitoring of test statistics, or pe
 
 ## References
 - Johari, R., Koomen, P., Pekelis, L., & Walsh, D. (2017). Peeking at A/B Tests: Why it matters, and what to do about it. Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, Part F129685, 1517–1525. https://doi.org/10.1145/3097983.3097992
+
+# Topic 2: Bandit vs. A/B Testing
+- [When You Should Prefer “Thompson Sampling” Over A/B Tests](https://medium.com/towards-data-science/when-you-should-prefer-thompson-sampling-over-a-b-tests-5e789b480458)
+> This is a good blog to demostrate how Thompson Sampling works for ads click and provide distribution evolution over time. Very easy to understand.
